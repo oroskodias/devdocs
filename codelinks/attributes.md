@@ -176,3 +176,5 @@ Language | Does not return detailed attributes | Returns detailed attributes
 PHP | `TaxRuleRepositoryInterface::getList($searchCriteria)`	| `TaxRuleRepositoryInterface::get($ruleId)`
 REST | `/V1/taxRules/search`	| `/V1/taxRules/{ruleId}`
 SOAP | `taxTaxRuleRepositoryV1GetList` | `taxTaxRuleRepositoryV1Get`
+ 
+ 
